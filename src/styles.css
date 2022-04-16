@@ -1,4 +1,27 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
-  text-align: center;
+}
+body {
+  padding: 50px 5%;
+}
+.bookList {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-row-gap: 2rem; */
+  /* text-align: center; */
+}
+.book {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+.title {
+  margin: 0.4rem 0;
+  font-size: 14px;
 }
